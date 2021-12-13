@@ -1,0 +1,6 @@
+while not 0<= numeroIntroducido <= 99:
+numeroIntroducido = input("Por favor, introduce un número entre el 0 y el 99: ")
+try:
+numeroIntroducido = int (numeroIntroducido)
+except:
+print("La conversión del número para identificar el rango ha fallado....")
