@@ -1,0 +1,10 @@
+	int medida_fija=25;
+	int medida_sensor=0;
+
+	medida_temperatura = Medidas_Sensores();
+
+	if(medida_sensor>medida_fija){
+	  do{
+		ModVar();
+	  }while(medida_fija>medida_sensor)
+	}
